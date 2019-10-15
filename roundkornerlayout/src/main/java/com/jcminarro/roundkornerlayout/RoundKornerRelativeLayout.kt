@@ -6,7 +6,7 @@ import android.os.Build
 import android.util.AttributeSet
 import android.widget.RelativeLayout
 
-class RoundKornerRelativeLayout
+open class RoundKornerRelativeLayout
 @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) :
         RelativeLayout(context, attrs, defStyleAttr) {
     private val canvasRounder: CanvasRounder
